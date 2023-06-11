@@ -31,6 +31,7 @@ button[type="submit"] {
   border-radius: 5px;
   background-color: #4caf50;
   color: white;
+  cursor: pointer;
 }
 
 ul {
@@ -56,4 +57,5 @@ li {
   border-radius: 5px;
   background-color: #ff3f3f;
   color: white;
+  cursor: pointer;
 }
