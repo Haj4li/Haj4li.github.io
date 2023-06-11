@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 5%;
 }
 
 h1,
@@ -45,8 +46,14 @@ li {
 
 .task-text {
   flex-grow: 1;
+  text-align: center;
 }
 
 .task-done {
   margin-left: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff3f3f;
+  color: white;
 }
