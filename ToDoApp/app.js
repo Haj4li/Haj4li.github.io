@@ -7,8 +7,8 @@ function addTask(event) {
   if (taskText) {
     const taskItem = document.createElement("li");
     taskItem.innerHTML = `
-      <span class="task-text">${taskText}</span>
-      <button class="task-done">Done</button>
+    <div class="task-box"><span class="task-text" style="">${taskText}</span>
+    <button class="task-done">Done</button></div>
     `;
     taskList.appendChild(taskItem);
     newTaskInput.value = "";
