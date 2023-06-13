@@ -59,3 +59,12 @@ li {
   color: white;
   cursor: pointer;
 }
+.task-box {
+  width: 100%;
+  border: 1px darkblue solid;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+}
