@@ -38,8 +38,8 @@ function loadTasks() {
     taskData.forEach((taskText) => {
       const taskItem = document.createElement("li");
       taskItem.innerHTML = `
-        <span class="task-text" style="">${taskText}</span>
-        <button class="task-done">Done</button>
+        <div class="task-box"><span class="task-text" style="">${taskText}</span>
+        <button class="task-done">Done</button></div>
       `;
       taskList.appendChild(taskItem);
     });
